@@ -3,7 +3,7 @@
 //
 #include "ArrayBinaryTree.c"
 
-int main(){
+void ArrayBinaryTreeTest(){
   ArrayBinaryTreeNode tree[8];
   initArrayBinaryTreeNode(tree,8);
 
@@ -18,7 +18,12 @@ int main(){
   printf("\n∫Û–Ú±È¿˙\n");
   ArrayBinaryTreeLRD(tree,1,8);
 
-
-
-  return 0;
   }
+
+void PTreeTest() {
+
+}
+
+void main() {
+  ArrayBinaryTreeTest();
+}

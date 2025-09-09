@@ -29,18 +29,18 @@ void QuicklySort(int array[], int low, int high) {
     }
 }
 
-void main() {
-    int arr[] = {14, 15, 42, 15, 65, 41, 88, 24};
-
-    const int arr_length = sizeof(arr) / sizeof(arr[0]);
-    printf("Original array elements: \n");
-    for (int i = 0; i < arr_length; i++) {
-        printf("\t%d", arr[i]);
-    }
-    QuicklySort(arr, 0, arr_length - 1);
-    printf("\n array length:%d \n", arr_length);
-    printf("Sorted array elements: \n");
-    for (int i = 0; i < arr_length; i++) {
-        printf("\t%d", arr[i]);
-    }
-}
+// void main() {
+//     int arr[] = {14, 15, 42, 15, 65, 41, 88, 24};
+//
+//     const int arr_length = sizeof(arr) / sizeof(arr[0]);
+//     printf("Original array elements: \n");
+//     for (int i = 0; i < arr_length; i++) {
+//         printf("\t%d", arr[i]);
+//     }
+//     QuicklySort(arr, 0, arr_length - 1);
+//     printf("\n array length:%d \n", arr_length);
+//     printf("Sorted array elements: \n");
+//     for (int i = 0; i < arr_length; i++) {
+//         printf("\t%d", arr[i]);
+//     }
+// }

@@ -1,6 +1,7 @@
 //
 // Created by zhouq on 25-8-11.
 //
+//栈的双链表实现
 #define MAX_SIZE 100
 #include "stdlib.h"
 #include "stdio.h"

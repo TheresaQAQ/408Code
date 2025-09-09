@@ -1,6 +1,7 @@
 //
 // Created by zhouq on 25-8-12.
 //
+//队列的链表实现
 #define MAX_SIZE 10
 #include "stdlib.h"
 
